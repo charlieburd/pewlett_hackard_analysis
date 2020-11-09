@@ -21,11 +21,11 @@
  * Based on our retirement eligibility criteria, there are 1,549 employees that could be mentors. If Pewlett Hackard is planning on 90,000 retirees, they may want to expand the criteria of those that are mentor eligible. A 1-to-60 mentorship ratio does not sound like a very intimate mentorship program. Additionally, this is assuming everyone that is eligible would want to be involved in the program.
 
  * While there are 29,414 Senior Engineers and 14,222 Engineers eligible for retirement, there are 308 Senior Engineers and 384 Engineers eligible for the mentor program. If Pewlett Hackard is to expand their mentorship criteria, they should focus on Senior Engineers, as they will have the most roles to fill but a relatively small number of mentors.
-#### Retirement Count
+#### Retirement Count by Title
 ![stacked_launch_outcomes](https://github.com/charlieburd/pewlett_hackard_analysis/blob/main/png/retirement_count.png)
 #
 
-#### Mentoring Count  
+#### Mentoring Count by Title
 ![stacked_launch_outcomes](https://github.com/charlieburd/pewlett_hackard_analysis/blob/main/png/mentorship_count.png)
 #
 
