@@ -13,11 +13,12 @@
 
 
 ## Pewlett Hackard Analysis Results
---4 bullets of major points from the 2 analysis deliverables 
+### Deliverable 1
  * The two most common titles that are nearing retirement are both senior positions, Senior Engineer and Senior Staff. This could be good news for Pewlett Hackard mentor program as the salaries for these roles would be higher compared to non-senior roles. When these employees do transition out of their roles, the company will have extra cash to invest in the mentorship program for a smoother transition.
  
  * From 1/1/2000 - 12/31/2002 only 16,074 employees retired, 2002 is the last year data was reported so it is likely that this was reported in 2003. The time span we took into account for retirement eligible employees was also 3 years and returned 90,398 employees. I think it is unlikely that you would see a spike of 5X the number of retirees, so perhaps a survey would help the company get a better idea of who will be retiring soon rather than an arbitrary birth year range.
 
+### Deliverable 2
  * Based on our retirement eligibility criteria, there are 1,549 employees that could be mentors. If Pewlett Hackard is planning on 90,000 retirees, they may want to expand the criteria of those that are mentor eligible. A 1-to-60 mentorship ratio does not sound like a very intimate mentorship program. Additionally, this is assuming everyone that is eligible would want to be involved in the program.
 
  * While there are 29,414 Senior Engineers and 14,222 Engineers eligible for retirement, there are 308 Senior Engineers and 384 Engineers eligible for the mentor program. If Pewlett Hackard is to expand their mentorship criteria, they should focus on Senior Engineers, as they will have the most roles to fill but a relatively small number of mentors.
