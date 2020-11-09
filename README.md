@@ -34,9 +34,16 @@
 ## Pewlett Hackard Analysis Summary:
 --a)Provide high-level responses to the following questions
 --b)Provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-----How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-----Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-#### In t
+### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+#### If we look at our "retiring_titles" tables, we get the count for each department, after we change the code to below, it will display the total amount of roles that will need to be filled. There are 90,398 roles that will need to be filled.
+`SELECT COUNT (title)
+FROM unique_titles;`
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+#### No, as I had mentioned in fourth bullet above, there will be a a sever lack of mentors, given the large amount of roles needed to be filled. Some mentor to mentee ratio of departments will be as high as 1-60. To look at this table we will use the below code:
+`SELECT COUNT (title), title
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY count DESC;`
 
 
 
