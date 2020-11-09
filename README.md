@@ -1,7 +1,6 @@
 # Module 7 - Pewlett Hackard Analysis
 
 ## Overview of Pewlett Hackard Analysis
---Explain the purpose of this analysis
 
 
 #### The Pewlett Hackard Module was to teach the basics of Postgres SQL. We began with creating a ERD (Entity Relationship Diagram) from Quick DBD to act as a map. Once we understood the relationships of all the data, we could start creating tables, referring to the ERD to see which tables had which data we wanted and why kind of data it was. As we created the tables, we learned the basics of SQL language, like SELECT, FROM and WHERE. Once we began joining data from different tables we also learn INTO, GROUP BY, ORDER BY and the different types of JOINS. Once we had the understanding of those functions we could dive into the challenge.
