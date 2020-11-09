@@ -39,14 +39,8 @@
 `SELECT COUNT (title)
 FROM unique_titles;`
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-#### No, as I had mentioned in fourth bullet above, there will be a a sever lack of mentors, given the large amount of roles needed to be filled. Some mentor to mentee ratio of departments will be as high as 1-60. To look at this table we will use the below code:
+#### No, as I had mentioned in fourth bullet above, there will be a sever lack of mentors, given the large number of roles needed to be filled it would be a challenge to provide enough mentors for all the open roles, even if it were in groups. Some mentor to mentee ratio of departments will be as high as 1-60. To look at this table we will use the below code:
 `SELECT COUNT (title), title
 FROM mentorship_eligibility
 GROUP BY title
 ORDER BY count DESC;`
-
-
-
-
-
-* When you look at "retirement_titles.csv" you see there are a total of 133,776 data entries. But when you looks at "unique_titles.csv" and "retiring_titles.cvs" they only have 90,398 data entires. This difference of 43,378 are those duplicated employee's that have had more than one role with Pewlett Hackard. You realize just how many employees have moved roles. There are only 7 roles on the CSV, and of the 90,
