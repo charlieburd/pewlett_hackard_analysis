@@ -22,8 +22,9 @@
  * Based on our retirement eligibility criteria, there are 1,549 employees that could be mentors. If Pewlett Hackard is planning on 90,000 retirees, they may want to expand the criteria of those that are mentor eligible. A 1-to-60 mentorship ratio does not sound like a very intimate mentorship program. Additionally, this is assuming everyone that is eligible would want to be involved in the program.
 
  * While there are 29,414 Senior Engineers and 14,222 Engineers eligible for retirement, there are 308 Senior Engineers and 384 Engineers eligible for the mentor program. If Pewlett Hackard is to expand their mentorship criteria, they should focus on Senior Engineers, as they will have the most roles to fill but a relatively small number of mentors.
-#### Retirement Count by Title
-![stacked_launch_outcomes](https://github.com/charlieburd/pewlett_hackard_analysis/blob/main/png/retirement_count.png)
+#### Retirement Count by Title                                                                               Mentoring Count by Title
+![stacked_launch_outcomes](https://github.com/charlieburd/pewlett_hackard_analysis/blob/main/png/retirement_count.png)  ![stacked_launch_outcomes](https://github.com/charlieburd/pewlett_hackard_analysis/blob/main/png/mentorship_count.png)
+
 #
 
 #### Mentoring Count by Title
@@ -32,8 +33,7 @@
 
 
 ## Pewlett Hackard Analysis Summary:
---a)Provide high-level responses to the following questions
---b)Provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 #### If we look at our "retiring_titles" tables, we get the count for each department, after we change the code to below, it will display the total amount of roles that will need to be filled. There are 90,398 roles that will need to be filled.
 `SELECT COUNT (title)
